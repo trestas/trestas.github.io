@@ -1,0 +1,54 @@
+:root {
+  --bg: #fafaff;
+  --surface: #ffffff;
+  --text: #1b1b24;
+  --muted: #5a5b6e;
+  --primary: #3949ab;
+  --primary-soft: #e3e6f7;
+  --gold: #ffc107;
+  --line: #dcdff0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12131c;
+    --surface: #1b1d2a;
+    --text: #e8e8f2;
+    --muted: #a4a6bc;
+    --primary: #9fa8ff;
+    --primary-soft: #262a45;
+    --line: #2e3147;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+a { color: var(--primary); }
+h1, h2, h3 { line-height: 1.25; }
+h1 { font-size: 2.2rem; margin: 0.2em 0; color: var(--primary); }
+h2 { font-size: 1.35rem; margin-top: 2em; }
+h3 { font-size: 1.1rem; margin-top: 1.5em; }
+.muted { color: var(--muted); }
+.hero { text-align: center; padding: 24px 0 8px; }
+.hero img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 6px 24px rgb(57 73 171 / 0.25); }
+.tagline { font-size: 1.2rem; color: var(--muted); margin: 0; }
+.badge {
+  display: inline-block; margin-top: 20px; padding: 10px 20px; border-radius: 999px;
+  background: var(--primary-soft); color: var(--text); font-weight: 600;
+}
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin-top: 32px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; }
+.card h3 { margin: 0 0 4px; font-size: 1.05rem; }
+.card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.card .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: var(--gold); margin-right: 8px; }
+nav.lang { display: flex; gap: 12px; justify-content: flex-end; font-size: 0.95rem; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+th { background: var(--primary-soft); }
+.table-wrap { overflow-x: auto; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; text-align: center; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
