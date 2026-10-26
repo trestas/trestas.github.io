@@ -40,6 +40,8 @@ h3 { font-size: 1.1rem; margin-top: 1.5em; }
   display: inline-block; margin-top: 20px; padding: 10px 20px; border-radius: 999px;
   background: var(--primary-soft); color: var(--text); font-weight: 600;
 }
+a.badge { text-decoration: none; }
+a.badge:hover { filter: brightness(0.95); }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin-top: 32px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; }
 .card h3 { margin: 0 0 4px; font-size: 1.05rem; }
