@@ -13,7 +13,7 @@
   <nav class="lang"><a href="index.html">JazzIn</a><a href="#lt">Lietuviškai</a></nav>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">JazzIn, formerly Nonet (Android app, package <code>com.solocodelab.nonet</code>) · Effective 25 October 2026</p>
+  <p class="muted">JazzIn, formerly Nonet (Android app, package <code>com.solocodelab.nonet</code>) · Effective 6 November 2026</p>
 
   <p>JazzIn is a sudoku game. The game does not ask for your name, email, phone number, location,
     contacts or photos, and you do not need an account. This policy explains the little data
@@ -44,8 +44,9 @@
     <tr>
       <td>Google Firebase Analytics</td>
       <td>App instance ID, device model, OS version, country, app events (e.g. game started or
-        finished, difficulty, time, hints used, store opened)</td>
-      <td>Understanding which features are used, so we can improve the game</td>
+        finished, difficulty, time, hints used, store opened), and ad revenue and ad impression
+        events from AdMob, which is linked to Firebase</td>
+      <td>Understanding which features are used and how ads perform, so we can improve the game</td>
       <td>Switch off in <em>Settings → Privacy → Send anonymous usage statistics</em>.</td>
     </tr>
     <tr>
@@ -61,6 +62,16 @@
       <td>Showing leaderboards. Leaderboard entries, including your player name, are visible to
         all players.</td>
       <td>Leave the player name empty or use a nickname. Ask us to delete your entries (see below).</td>
+    </tr>
+    <tr>
+      <td>Invitations (Firebase Authentication and Cloud Firestore)</td>
+      <td>A short invitation code tied to your anonymous player ID; which anonymous player ID invited
+        which new one, and whether the new player has finished a puzzle; the invitation link the app was
+        installed through (Google Play Install Referrer). No names, email addresses or phone numbers.</td>
+      <td>Counting invited friends and giving game credits (days without ads, extra hints, a colour
+        theme). A credit counts only after the new player finishes a puzzle.</td>
+      <td>Only used if you share your invitation link, install through a friend's link or type in a code.
+        Ask us to delete your entries (see below).</td>
     </tr>
     <tr>
       <td>Google Play Billing</td>
@@ -83,8 +94,9 @@
     <a href="mailto:solocodelab@gmail.com">solocodelab@gmail.com</a>, or the JazzIn page on Google Play where
     you can rate the app. The game itself sends nothing in either case. If you email us, we receive your
     email address and whatever you write, and use it only to answer you and improve the game. We keep such
-    messages for as long as needed to reply and delete them on request. Ratings and reviews on Google Play
-    are handled by Google under its own terms.</p>
+    messages for as long as needed to reply and delete them on request. You can also leave a rating and review
+    inside the app. This is handled by Google Play; the game does not receive your rating or text. Ratings
+    and reviews on Google Play are handled by Google under its own terms.</p>
 
   <h2>Legal bases (EEA and UK)</h2>
   <ul>
@@ -92,14 +104,16 @@
     <li>Non-personalised ads, analytics, Remote Config and leaderboards: our legitimate interest in
       offering a free, working and improving game, balanced by the choices above.</li>
     <li>Purchases and donations: performance of the contract with you.</li>
+    <li>Invitations: our legitimate interest in running the invitation feature and preventing abuse;
+      performance of the contract for the credits you earn.</li>
     <li>Emails you send us: our legitimate interest in answering you.</li>
   </ul>
 
   <h2>How long data is kept</h2>
   <p>Data on your device stays until you clear the app's data or uninstall it. Analytics data is
     kept for a limited period set in Firebase (no longer than 14 months). Leaderboard entries stay
-    while the leaderboard is shown, or until you ask us to delete them. Google keeps ad data under
-    its own policies.</p>
+    while the leaderboard is shown, or until you ask us to delete them. Invitation records are kept while
+    credits can still be used, or until you ask us to delete them. Google keeps ad data under its own policies.</p>
 
   <h2>Children</h2>
   <p>JazzIn is meant for players aged 13 and over and is not directed at children. Ads are limited to
@@ -123,7 +137,7 @@
 
   <section id="lt" lang="lt">
   <h1>Privatumo politika</h1>
-  <p class="muted">JazzIn, anksčiau Nonet (Android programėlė, paketas <code>com.solocodelab.nonet</code>) · Galioja nuo 2026 m. spalio 25 d.</p>
+  <p class="muted">JazzIn, anksčiau Nonet (Android programėlė, paketas <code>com.solocodelab.nonet</code>) · Galioja nuo 2026 m. lapkričio 6 d.</p>
 
   <p>JazzIn – Sudoku žaidimas. Žaidimas neprašo jūsų vardo, el. pašto, telefono, buvimo vietos,
     kontaktų ar nuotraukų, paskyros kurti nereikia. Čia paaiškinta, kokius nedidelius duomenis
@@ -154,8 +168,9 @@
     <tr>
       <td>Google Firebase Analytics</td>
       <td>Programėlės egzemplioriaus ID, įrenginio modelis, OS versija, šalis, įvykiai programėlėje
-        (pvz., pradėtas ar baigtas žaidimas, sunkumas, laikas, užuominos, atidaryta parduotuvė)</td>
-      <td>Suprasti, kurios funkcijos naudojamos, ir tobulinti žaidimą</td>
+        (pvz., pradėtas ar baigtas žaidimas, sunkumas, laikas, užuominos, atidaryta parduotuvė) ir
+        AdMob reklamų pajamų bei parodymų įvykiai, susieti su Firebase</td>
+      <td>Suprasti, kurios funkcijos naudojamos ir kaip veikia reklamos, ir tobulinti žaidimą</td>
       <td>Išjunkite <em>Nustatymai → Privatumas → Siųsti anoniminę naudojimo statistiką</em>.</td>
     </tr>
     <tr>
@@ -170,6 +185,16 @@
         paliksite tuščią); reitinguojamų žaidimų laikas, klaidos, užuominos ir taškai; data</td>
       <td>Rodyti reitingus. Reitingų įrašai, įskaitant žaidėjo vardą, matomi visiems žaidėjams.</td>
       <td>Palikite vardą tuščią arba naudokite slapyvardį. Galite paprašyti ištrinti įrašus (žr. žemiau).</td>
+    </tr>
+    <tr>
+      <td>Pakvietimai (Firebase Authentication ir Cloud Firestore)</td>
+      <td>Trumpas pakvietimo kodas, susietas su jūsų anonimišku žaidėjo ID; kuris anoniminis žaidėjo ID kurį
+        naują pakvietė ir ar naujas žaidėjas užbaigė galvosūkį; pakvietimo nuoroda, per kurią įdiegta programėlė
+        („Google Play Install Referrer“). Vardai, el. pašto adresai ar telefono numeriai nenaudojami.</td>
+      <td>Skaičiuoti pakviestus draugus ir suteikti žaidimo kreditus (dienas be reklamų, papildomas užuominas,
+        spalvų temą). Kreditas įskaitomas tik tada, kai naujas žaidėjas užbaigia galvosūkį.</td>
+      <td>Naudojama tik jei dalinatės pakvietimo nuoroda, įsidiegiate per draugo nuorodą ar įvedate kodą.
+        Galite paprašyti ištrinti savo įrašus (žr. žemiau).</td>
     </tr>
     <tr>
       <td>Google Play Billing</td>
@@ -194,7 +219,8 @@
     įvertinti programėlę. Pats žaidimas abiem atvejais nieko nesiunčia. Jei parašysite el. laišką,
     gausime jūsų el. pašto adresą ir tai, ką parašysite, ir naudosime tik atsakymui bei žaidimo
     tobulinimui. Tokias žinutes saugome tiek, kiek reikia atsakyti, ir ištriname paprašius.
-    Įvertinimus ir atsiliepimus „Google Play“ tvarko Google pagal savo sąlygas.</p>
+    Įvertinimą ir atsiliepimą galite palikti ir pačioje programėlėje. Tai tvarko „Google Play“; žaidimas jūsų
+    įvertinimo ar teksto negauna. Įvertinimus ir atsiliepimus „Google Play“ tvarko Google pagal savo sąlygas.</p>
 
   <h2>Teisiniai pagrindai (EEE ir JK)</h2>
   <ul>
@@ -202,6 +228,8 @@
     <li>Neasmeninės reklamos, analitika, Remote Config ir reitingai – mūsų teisėtas interesas siūlyti
       nemokamą, veikiantį ir tobulėjantį žaidimą, atsveriamas aukščiau nurodytais pasirinkimais.</li>
     <li>Pirkimai ir aukos – sutarties su jumis vykdymas.</li>
+    <li>Pakvietimai – mūsų teisėtas interesas vykdyti pakvietimų funkciją ir užkirsti kelią piktnaudžiavimui;
+      sutarties vykdymas dėl jūsų gautų kreditų.</li>
     <li>Jūsų atsiųsti el. laiškai – mūsų teisėtas interesas jums atsakyti.</li>
   </ul>
 
@@ -209,7 +237,8 @@
   <p>Įrenginyje esantys duomenys saugomi, kol išvalote programėlės duomenis ar ją pašalinate.
     Analitikos duomenys saugomi Firebase nustatytą ribotą laiką (ne ilgiau kaip 14 mėnesių).
     Reitingų įrašai saugomi, kol rodomas reitingas, arba kol paprašote juos ištrinti. Reklamų
-    duomenis Google saugo pagal savo taisykles.</p>
+    duomenis Google saugo pagal savo taisykles. Pakvietimų įrašai saugomi, kol kreditus dar galima panaudoti, arba
+    kol paprašote juos ištrinti.</p>
 
   <h2>Vaikai</h2>
   <p>JazzIn skirtas 13 metų ir vyresniems žaidėjams, jis nėra skirtas vaikams. Rodomos tik visiems
