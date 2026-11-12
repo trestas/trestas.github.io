@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "app": "sudoku",
+  "package": "com.solocodelab.nonet",
+  "name": "JazzIn Sudoku",
+  "icon": "icon.webp",
+  "weight": 1,
+  "ads": [
+    {
+      "id": "sudoku-1",
+      "variant": "calm",
+      "banner": "banner-1.webp",
+      "video": "video-1.mp4",
+      "poster": "poster-1.webp",
+      "accent": "#FFC400",
+      "bg_top": "#1E2660",
+      "bg_bottom": "#3A48AA",
+      "headline": {
+        "en": "Sudoku with a jazz soul",
+        "lt": "Sudoku su džiazo siela"
+      },
+      "body": {
+        "en": "Calm logic puzzles, no rush.",
+        "lt": "Rami logikos galvosūkiai be skubos."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "sudoku-2",
+      "variant": "killer",
+      "banner": "banner-2.webp",
+      "video": "video-2.mp4",
+      "poster": "poster-2.webp",
+      "accent": "#FF8F5E",
+      "bg_top": "#181E46",
+      "bg_bottom": "#3F338C",
+      "headline": {
+        "en": "Killer Sudoku, next level",
+        "lt": "„Killer“ sudoku – kitas lygis"
+      },
+      "body": {
+        "en": "Cages, sums and pure logic.",
+        "lt": "Narvai, sumos ir gryna logika."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "sudoku-3",
+      "variant": "daily",
+      "banner": "banner-3.webp",
+      "video": "video-3.mp4",
+      "poster": "poster-3.webp",
+      "accent": "#FFD666",
+      "bg_top": "#264682",
+      "bg_bottom": "#568CCD",
+      "headline": {
+        "en": "A new Sudoku every day",
+        "lt": "Naujas sudoku kiekvieną dieną"
+      },
+      "body": {
+        "en": "Daily challenge and streaks.",
+        "lt": "Dienos iššūkis ir serijos."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "sudoku-4",
+      "variant": "hints",
+      "banner": "banner-4.webp",
+      "video": "video-4.mp4",
+      "poster": "poster-4.webp",
+      "accent": "#8EE0BE",
+      "bg_top": "#28245A",
+      "bg_bottom": "#5C46AA",
+      "headline": {
+        "en": "Stuck? Learn the technique",
+        "lt": "Užstrigai? Išmok metodą"
+      },
+      "body": {
+        "en": "Hints that teach, not just solve.",
+        "lt": "Užuominos, kurios moko."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "sudoku-5",
+      "variant": "night",
+      "banner": "banner-5.webp",
+      "video": "video-5.mp4",
+      "poster": "poster-5.webp",
+      "accent": "#A0BEFF",
+      "bg_top": "#0A0C1C",
+      "bg_bottom": "#222850",
+      "headline": {
+        "en": "Night theme for late puzzles",
+        "lt": "Tamsi tema vakariniams galvosūkiams"
+      },
+      "body": {
+        "en": "Easy on the eyes after dark.",
+        "lt": "Malonu akims sutemus."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    }
+  ]
+}

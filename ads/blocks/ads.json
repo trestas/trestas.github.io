@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "app": "blocks",
+  "package": "com.solocodelab.blockpuzzle",
+  "name": "JazzIn Block Puzzle",
+  "icon": "icon.webp",
+  "weight": 1,
+  "ads": [
+    {
+      "id": "blocks-1",
+      "variant": "fit",
+      "banner": "banner-1.webp",
+      "video": "video-1.mp4",
+      "poster": "poster-1.webp",
+      "accent": "#FFBE3C",
+      "bg_top": "#121E50",
+      "bg_bottom": "#283C8C",
+      "headline": {
+        "en": "Fit blocks. Clear lines.",
+        "lt": "Dėliok blokus, valyk eilutes"
+      },
+      "body": {
+        "en": "Easy to start, hard to put down.",
+        "lt": "Lengva pradėti, sunku nustoti."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "blocks-2",
+      "variant": "start",
+      "banner": "banner-2.webp",
+      "video": "video-2.mp4",
+      "poster": "poster-2.webp",
+      "accent": "#FFD666",
+      "bg_top": "#14345A",
+      "bg_bottom": "#286E96",
+      "headline": {
+        "en": "Easy to start",
+        "lt": "Lengva pradėti"
+      },
+      "body": {
+        "en": "Drag, drop and watch lines vanish.",
+        "lt": "Tempk, padėk ir stebėk, kaip dingsta eilutės."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "blocks-3",
+      "variant": "record",
+      "banner": "banner-3.webp",
+      "video": "video-3.mp4",
+      "poster": "poster-3.webp",
+      "accent": "#FF785A",
+      "bg_top": "#3C1446",
+      "bg_bottom": "#8C3278",
+      "headline": {
+        "en": "Chase your best score",
+        "lt": "Siek rekordo"
+      },
+      "body": {
+        "en": "Chain combos for big points.",
+        "lt": "Grandinėk kombinacijas ir rink taškus."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "blocks-4",
+      "variant": "clear",
+      "banner": "banner-4.webp",
+      "video": "video-4.mp4",
+      "poster": "poster-4.webp",
+      "accent": "#78E6C8",
+      "bg_top": "#102846",
+      "bg_bottom": "#1E5A82",
+      "headline": {
+        "en": "Relax in Zen mode",
+        "lt": "Atsipalaiduok Zen režimu"
+      },
+      "body": {
+        "en": "No pressure, just blocks.",
+        "lt": "Jokio spaudimo, tik blokai."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    },
+    {
+      "id": "blocks-5",
+      "variant": "duel",
+      "banner": "banner-5.webp",
+      "video": "video-5.mp4",
+      "poster": "poster-5.webp",
+      "accent": "#FFC878",
+      "bg_top": "#321E14",
+      "bg_bottom": "#8C4628",
+      "headline": {
+        "en": "Blocks meet Sudoku",
+        "lt": "Blokai ir sudoku kartu"
+      },
+      "body": {
+        "en": "Try the 9×9 mode.",
+        "lt": "Išbandyk 9×9 režimą."
+      },
+      "cta": {
+        "en": "Install",
+        "lt": "Įdiegti"
+      }
+    }
+  ]
+}
