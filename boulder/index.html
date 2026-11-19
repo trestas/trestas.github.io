@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JazzIn Boulder: Gem Puzzle – Every move changes the cave</title>
+  <meta name="description" content="JazzIn Boulder: Gem Puzzle is a turn-based cave puzzle for Android. Dig through the earth, collect gems, outsmart falling boulders and find the exit in 25 levels.">
+  <link rel="canonical" href="https://trestas.github.io/boulder/">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JazzIn Boulder: Gem Puzzle – Every move changes the cave">
+  <meta property="og:description" content="Dig, collect gems and outsmart falling rocks. A cave puzzle that moves with you.">
+  <meta property="og:url" content="https://trestas.github.io/boulder/">
+  <meta property="og:image" content="https://trestas.github.io/boulder/banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .shots { display: flex; gap: 12px; overflow-x: auto; margin-top: 28px; padding-bottom: 8px; }
+    .shots img { height: 420px; width: auto; border-radius: 14px; border: 1px solid var(--line); flex: none; }
+    .badge.soon { opacity: 0.85; cursor: default; }
+    .banner img { max-width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--line); }
+    details { border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin-top: 10px; background: var(--surface); }
+    summary { cursor: pointer; font-weight: 600; }
+  </style>
+</head>
+<body>
+<main>
+  <nav class="lang"><a href="../">SoloCodeLab</a><a href="#lt">Lietuviškai</a></nav>
+
+  <section class="hero">
+    <img src="icon.png" width="128" height="128" alt="JazzIn Boulder app icon: a shining blue gem above the earth">
+    <h1>JazzIn Boulder: Gem Puzzle</h1>
+    <p class="tagline">Every move changes the cave</p>
+    <!-- Kai programėlė bus Play parduotuvėje, pakeisti į: <a class="badge" href="https://play.google.com/store/apps/details?id=com.solocodelab.boulder">Get it on Google Play</a> -->
+    <span class="badge soon">Coming soon to Google Play</span>
+  </section>
+
+  <div class="banner"><img src="banner.png" width="1024" height="500" alt="JazzIn Boulder: every move changes the cave"></div>
+
+  <p>Dig through the earth, collect diamonds and find your way to the exit. The cave advances only when you make
+    a move, so you can stop, study the rocks above you and choose your next step. Digging a passage can open a
+    route – or release a falling boulder.</p>
+
+  <div class="shots">
+    <img src="shot1.png" alt="A cave level: the hero, boulders, brick walls and diamonds" loading="lazy">
+    <img src="shot2.png" alt="A larger cave: think before you dig" loading="lazy">
+    <img src="shot3.png" alt="The depth map with 25 cave levels" loading="lazy">
+    <img src="shot4.png" alt="The home screen with Play and the depth map" loading="lazy">
+  </div>
+
+  <div class="cards">
+    <div class="card"><h3><span class="dot"></span>Think before you dig</h3><p>Turn-based play: the cave moves when you do.</p></div>
+    <div class="card"><h3><span class="dot"></span>Collect gems and escape</h3><p>Gather the required diamonds to open the exit, then find a safe way out.</p></div>
+    <div class="card"><h3><span class="dot"></span>25 cave levels</h3><p>A campaign that goes ever deeper, with fireflies, butterflies and other cave dwellers.</p></div>
+    <div class="card"><h3><span class="dot"></span>Learn by playing</h3><p>A short guide and an interactive demo cave with tips.</p></div>
+    <div class="card"><h3><span class="dot"></span>See the whole cave</h3><p>Tap the top bar to view the entire level before you plan your route.</p></div>
+    <div class="card"><h3><span class="dot"></span>English and Lithuanian</h3><p>The game follows your phone language.</p></div>
+  </div>
+
+  <h2>How to play</h2>
+  <details open><summary>The basics</summary>
+    <p>Swipe or hold to move. You dig through earth as you go. A boulder or diamond falls when there is nothing
+      beneath it – don't stand under it. Collect the required number of diamonds, then reach the exit.</p>
+  </details>
+  <details><summary>Undo</summary>
+    <p>Undo takes back moves. It is free in the first levels and a few times in every later level; after that a
+      short ad unlocks it until your next move.</p>
+  </details>
+  <details><summary>Free with ads</summary>
+    <p>The game is free. It shows a banner on the home screen and a short ad before some levels.</p>
+  </details>
+
+  <h2 id="lt">Lietuviškai</h2>
+  <p>„JazzIn Boulder: Gem Puzzle“ – ėjimais paremtas urvų galvosūkis Android įrenginiams. Kask žemę, rink deimantus
+    ir rask kelią į išėjimą. Urvas juda tik tada, kai atlieki ėjimą, todėl gali sustoti ir apgalvoti kitą žingsnį.
+    Iškastas praėjimas gali atverti kelią arba paleisti krintantį riedulį. 25 lygiai, Demo urvas su patarimais.
+    Netrukus „Google Play“.</p>
+
+  <p class="muted">More JazzIn games: <a href="../">JazzIn: Sudoku &amp; Killer Sudoku</a>,
+    <a href="../blocks.html">JazzIn: Block Puzzle</a>, <a href="../trackout/">JazzIn: TrackOut</a>.</p>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a> · <a href="privacy.html#lt">Privatumo politika</a> ·
+      <a href="mailto:solocodelab@gmail.com">solocodelab@gmail.com</a></p>
+    <p>© 2026 SoloCodeLab</p>
+  </footer>
+</main>
+</body>
+</html>
