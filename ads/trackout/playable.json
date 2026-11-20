@@ -1,0 +1,62 @@
+{
+  "enabled": false,
+  "style": "game",
+  "package": "com.solocodelab.trackout",
+  "utm": {
+    "source": "jazzin_boulder",
+    "medium": "house_ad",
+    "campaign": "trackout",
+    "content": "playable"
+  },
+  "close_after_s": 5,
+  "colors": {
+    "accent": "#F0B45F",
+    "bg_top": "#1E2430",
+    "bg_bottom": "#161B26",
+    "text": "#F1ECE2",
+    "cloud_text": "#1B1B1B"
+  },
+  "texts": {
+    "app_name": {
+      "en": "JazzIn TrackOut",
+      "lt": "JazzIn TrackOut"
+    },
+    "title": {
+      "en": "Level 3",
+      "lt": "Lygis 3"
+    },
+    "subtitle": {
+      "en": "Exit order",
+      "lt": "Išėjimo tvarka"
+    },
+    "hint": {
+      "en": "Drag a piece to its exit – or just watch.",
+      "lt": "Nutempk figūrą iki jos išėjimo – arba tiesiog stebėk."
+    },
+    "done": {
+      "en": "All out! Hundreds more puzzles in JazzIn TrackOut.",
+      "lt": "Visi išėjo! Šimtai galvosūkių laukia „JazzIn TrackOut“."
+    },
+    "cta": {
+      "en": "Download now",
+      "lt": "Atsisiųsk dabar"
+    },
+    "again": {
+      "en": "Play again",
+      "lt": "Žaisti dar"
+    },
+    "b_title": {
+      "en": "JazzIn TrackOut",
+      "lt": "JazzIn TrackOut"
+    },
+    "b_tag": {
+      "en": "Lead every piece out",
+      "lt": "Išvesk visas figūras"
+    },
+    "b_cta": {
+      "en": "Install",
+      "lt": "Įdiegti"
+    }
+  },
+  "banner_enabled": false
+}

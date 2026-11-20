@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "style": "game",
+  "package": "com.solocodelab.blockpuzzle",
+  "utm": {
+    "source": "jazzin_boulder",
+    "medium": "house_ad",
+    "campaign": "blocks",
+    "content": "playable"
+  },
+  "close_after_s": 5,
+  "colors": {
+    "accent": "#FFBE3C",
+    "bg_top": "#1E2750",
+    "bg_bottom": "#2A3570",
+    "text": "#FFFFFF",
+    "cloud_text": "#1B1B1B"
+  },
+  "texts": {
+    "app_name": {
+      "en": "JazzIn Block Puzzle",
+      "lt": "JazzIn Block Puzzle"
+    },
+    "hint": {
+      "en": "Drag a block onto the board – or just watch.",
+      "lt": "Nutempk bloką į lentą – arba tiesiog stebėk."
+    },
+    "done": {
+      "en": "Nice clears! Chase your record in JazzIn Block Puzzle.",
+      "lt": "Puikiai išvalei! Siek rekordo „JazzIn Block Puzzle“."
+    },
+    "cta": {
+      "en": "Download now",
+      "lt": "Atsisiųsk dabar"
+    },
+    "again": {
+      "en": "Play again",
+      "lt": "Žaisti dar"
+    },
+    "b_title": {
+      "en": "JazzIn Block Puzzle",
+      "lt": "JazzIn Block Puzzle"
+    },
+    "b_tag": {
+      "en": "Drop, clear, chase your record",
+      "lt": "Dėk, valyk, siek rekordo"
+    },
+    "b_cta": {
+      "en": "Install",
+      "lt": "Įdiegti"
+    }
+  },
+  "banner_enabled": true
+}
