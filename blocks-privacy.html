@@ -13,7 +13,7 @@
   <nav class="lang"><a href="index.html">SoloCodeLab</a><a href="#lt">Lietuviškai</a></nav>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">JazzIn: Block Puzzle (Android app, package <code>com.solocodelab.blockpuzzle</code>) · Effective 20 November 2026</p>
+  <p class="muted">JazzIn: Block Puzzle (Android app, package <code>com.solocodelab.blockpuzzle</code>) · Effective 21 November 2026</p>
 
   <p>JazzIn: Block Puzzle is a block puzzle game. We do not ask for your name, email, phone number,
     location, contacts or photos, and you do not need an account. This policy explains the little
@@ -43,10 +43,19 @@
     <tr>
       <td>Google Firebase Analytics</td>
       <td>App instance ID, device model, OS version, country, app events (for example first open, sessions,
-        screens viewed)</td>
-      <td>Understanding how the game is used and which parts need improving</td>
-      <td>Analytics is anonymous and is not linked to your name or email. In the EEA, UK and Switzerland it follows
-        your ad consent choice (<em>Settings → Ads and privacy</em>).</td>
+        game started or finished with the mode and score, level won, ad shown, update offered, and impressions and
+        taps of our own ads), and ad impression events from AdMob, which is linked to Firebase</td>
+      <td>Understanding how the game is used, which parts need improving and how our ads perform</td>
+      <td>Analytics starts when the app is opened. It is anonymous and is not linked to your name or email, and the
+        app does not add personal data to events. You can reset or delete your advertising ID in Android settings
+        and you can ask us to delete analytics data (see below).</td>
+    </tr>
+    <tr>
+      <td>Google Firebase Crashlytics</td>
+      <td>Crash reports: device model, OS version, app version, the app's state and the technical details of the
+        crash; an anonymous installation ID</td>
+      <td>Finding and fixing crashes</td>
+      <td>Sent only if the app crashes. No personal data is added.</td>
     </tr>
     <tr>
       <td>“Invite a friend” (Firebase Authentication, Cloud Firestore, Firebase App Check,
@@ -78,11 +87,27 @@
     from apps that use its services</a>. Data may be processed outside your country, including in
     the United States, under safeguards Google provides (such as the EU Standard Contractual Clauses).</p>
 
+  <h2>Our own ads for other apps and update checks</h2>
+  <p>When the ad network has no ad to show, JazzIn: Block Puzzle may show a banner on the home screen or a short
+    full-screen playable ad for one of our own apps (JazzIn Sudoku, JazzIn TrackOut or JazzIn Boulder) that is not
+    yet installed on your device. To do this the app downloads its ad settings from
+    <code>trestas.github.io/ads/</code>, a public page we host on GitHub Pages (like any website, it can see your IP
+    address when you download). The app checks which of our apps are installed only on your device and sends this
+    list nowhere. Impressions and taps are recorded in Firebase Analytics as events with the target app, format and
+    style; no personal data is added. A tap opens the app's Google Play page with a source tag; if you install it,
+    the other app learns once, through the Google Play Install Referrer, that the install came from this promotion
+    (source, campaign and format names only, no personal data). Likewise, if you installed this game from an
+    ad in one of our other apps, the game records that once, using the same tags. Players who bought “Remove ads” or
+    have Premium do not see these ads. Separately, when the app starts it asks Google Play whether a newer version
+    is available and, if so, offers to install it; this exchange is only between your device and Google Play.
+    Legal basis: our legitimate interest in promoting our own apps and keeping the app up to date.</p>
+
   <h2>Legal bases (EEA and UK)</h2>
   <ul>
     <li>Personalised ads: your consent.</li>
-    <li>Non-personalised ads, analytics and invite abuse prevention: our legitimate interest in offering a free,
-      fair and working game, balanced by the choices above.</li>
+    <li>Non-personalised ads, analytics, crash reports, our own ads for other apps, update checks and invite abuse
+      prevention: our legitimate interest in offering a free, fair, working and improving game, balanced by the
+      choices above.</li>
     <li>Invite rewards and purchases: performance of the contract with you.</li>
   </ul>
 
@@ -113,7 +138,7 @@
   <hr>
 
   <h1 id="lt">Privatumo politika</h1>
-  <p class="muted">JazzIn: Block Puzzle (Android programėlė, paketas <code>com.solocodelab.blockpuzzle</code>) · Galioja nuo 2026 m. lapkričio 20 d.</p>
+  <p class="muted">JazzIn: Block Puzzle (Android programėlė, paketas <code>com.solocodelab.blockpuzzle</code>) · Galioja nuo 2026 m. lapkričio 21 d.</p>
 
   <p>JazzIn: Block Puzzle – blokų dėlionės žaidimas. Mes neprašome jūsų vardo, el. pašto, telefono,
     buvimo vietos, kontaktų ar nuotraukų, paskyros kurti nereikia. Čia paaiškinta, kokius nedidelius
@@ -143,10 +168,20 @@
     <tr>
       <td>Google Firebase Analytics</td>
       <td>Programėlės egzemplioriaus ID, įrenginio modelis, OS versija, šalis, žaidimo įvykiai (pvz., pirmas atidarymas,
-        sesijos, peržiūrėti ekranai)</td>
-      <td>Suprasti, kaip žaidimas naudojamas ir ką reikia tobulinti</td>
-      <td>Analitika anoniminė, nesiejama su jūsų vardu ar el. paštu. EEE, JK ir Šveicarijoje ji laikosi jūsų
-        sutikimo reklamoms pasirinkimo (<em>Nustatymai → Reklamos ir privatumas</em>).</td>
+        sesijos, pradėta ar baigta partija su režimu ir rezultatu, laimėtas lygis, parodyta reklama, pasiūlytas
+        atnaujinimas, savų reklamų parodymai ir paspaudimai) bei AdMob reklamos parodymo įvykiai, nes AdMob susietas su
+        Firebase</td>
+      <td>Suprasti, kaip žaidimas naudojamas, ką reikia tobulinti ir kaip veikia mūsų reklamos</td>
+      <td>Analitika pradeda veikti atidarius programėlę. Ji anoniminė, nesiejama su jūsų vardu ar el. paštu, o
+        programėlė prie įvykių nepriduria asmens duomenų. Reklamos ID galite atstatyti ar ištrinti Android
+        nustatymuose, o analitikos duomenų ištrynimo galite paprašyti mūsų (žr. žemiau).</td>
+    </tr>
+    <tr>
+      <td>Google Firebase Crashlytics</td>
+      <td>Strigimų ataskaitos: įrenginio modelis, OS ir programėlės versija, programėlės būsena ir techninė
+        strigimo informacija; anoniminis diegimo ID</td>
+      <td>Rasti ir ištaisyti strigimus</td>
+      <td>Siunčiama tik programėlei sustrigus. Asmens duomenų nepridedama.</td>
     </tr>
     <tr>
       <td>„Pakviesk draugą“ (Firebase Authentication, Cloud Firestore, Firebase App Check,
@@ -178,11 +213,28 @@
     iš programų, kurios naudoja jos paslaugas</a>. Duomenys gali būti tvarkomi už jūsų šalies ribų,
     taip pat JAV, taikant Google teikiamas apsaugos priemones (pvz., ES standartines sutarčių sąlygas).</p>
 
+  <h2>Savos reklamos kitoms programėlėms ir atnaujinimų patikra</h2>
+  <p>Kai reklamos tinklas neturi ką parodyti, JazzIn: Block Puzzle gali rodyti juostą pradžios ekrane arba trumpą viso
+    ekrano žaidžiamą reklamą apie vieną iš mūsų programėlių (JazzIn Sudoku, JazzIn TrackOut ar JazzIn Boulder), kurios
+    jūsų įrenginyje dar nėra. Tam programėlė parsisiunčia reklamos nustatymus iš
+    <code>trestas.github.io/ads/</code> – viešo puslapio, kurį talpiname GitHub Pages (kaip ir bet kuri svetainė, jis
+    gali matyti jūsų IP adresą parsisiunčiant). Programėlė tikrina, kurios mūsų programėlės įdiegtos, tik jūsų
+    įrenginyje ir šio sąrašo niekur nesiunčia. Parodymai ir paspaudimai registruojami „Firebase Analytics“ kaip įvykiai
+    su tikslo programėle, formatu ir stiliumi; asmens duomenų nepridedama. Paspaudus atidaromas programėlės „Google
+    Play“ puslapis su šaltinio žyme; jei ją įdiegsite, kita programėlė vieną kartą per „Google Play Install Referrer“
+    sužino, kad įdiegta iš šios reklamos (tik šaltinio, kampanijos ir formato pavadinimai, jokių asmens duomenų).
+    Lygiai taip pat, jei šį žaidimą įdiegėte iš kitos mūsų programėlės reklamos, žaidimas tai vieną kartą užregistruoja
+    pagal tas pačias žymas. Žaidėjai, nusipirkę „Pašalinti reklamas“ ar turintys Premium, šių reklamų nemato. Atskirai,
+    paleidus programėlę ji paklausia „Google Play“, ar yra naujesnė versija, ir, jei yra, pasiūlo ją įdiegti; šis
+    keitimasis vyksta tik tarp jūsų įrenginio ir „Google Play“. Teisinis pagrindas: mūsų teisėtas interesas reklamuoti
+    savo programėles ir išlaikyti programėlę naujausią.</p>
+
   <h2>Teisiniai pagrindai (EEE ir JK)</h2>
   <ul>
     <li>Asmeninės reklamos – jūsų sutikimas.</li>
-    <li>Neasmeninės reklamos, analitika ir apsauga nuo piktnaudžiavimo kvietimais – mūsų teisėtas interesas
-      siūlyti nemokamą, sąžiningą ir veikiantį žaidimą, atsveriamas aukščiau nurodytais pasirinkimais.</li>
+    <li>Neasmeninės reklamos, analitika, strigimų ataskaitos, savos reklamos kitoms programėlėms, atnaujinimų patikra ir
+      apsauga nuo piktnaudžiavimo kvietimais – mūsų teisėtas interesas siūlyti nemokamą, sąžiningą, veikiantį ir
+      tobulėjantį žaidimą, atsveriamas aukščiau nurodytais pasirinkimais.</li>
     <li>Kvietimų apdovanojimai ir pirkimai – sutarties su jumis vykdymas.</li>
   </ul>
 
