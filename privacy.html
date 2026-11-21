@@ -13,7 +13,7 @@
   <nav class="lang"><a href="index.html">JazzIn</a><a href="#lt">Lietuviškai</a></nav>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">JazzIn, formerly Nonet (Android app, package <code>com.solocodelab.nonet</code>) · Effective 16 November 2026</p>
+  <p class="muted">JazzIn, formerly Nonet (Android app, package <code>com.solocodelab.nonet</code>) · Effective 21 November 2026</p>
 
   <p>JazzIn is a sudoku game. The game does not ask for your name, email, phone number, location,
     contacts or photos, and you do not need an account. This policy explains the little data
@@ -51,6 +51,12 @@
       <td>Switch off in <em>Settings → Privacy → Send anonymous usage statistics</em>.</td>
     </tr>
     <tr>
+      <td>Google Firebase Crashlytics</td>
+      <td>Crash reports: the technical error log, app version, device model, OS version, app instance ID</td>
+      <td>Finding and fixing crashes</td>
+      <td>Switch off in <em>Settings → Privacy → Send anonymous usage statistics</em>; then no crash reports are sent.</td>
+    </tr>
+    <tr>
       <td>Google Firebase Remote Config</td>
       <td>App instance ID, app version</td>
       <td>Adjusting settings such as how often ads may appear, without an app update</td>
@@ -82,6 +88,18 @@
         data and is not used to identify you.</td>
       <td>Knowing which of our own promotions work.</td>
       <td>Switch off in <em>Settings → Privacy → Send anonymous usage statistics</em>; then nothing is recorded.</td>
+    </tr>
+    <tr>
+      <td>Ads for our other apps (GitHub Pages, Google Play, Firebase Analytics)</td>
+      <td>If you do not have another JazzIn app (such as JazzIn Block Puzzle), JazzIn may show a short ad for it
+        instead of an AdMob ad. To choose, the app checks whether our other apps are installed on your device;
+        nothing about other installed apps is read or sent. Once a day the app downloads a small settings file
+        from our website (hosted on GitHub Pages, which sees your IP address like any website). The ad links to
+        the app's Google Play page. Showing and tapping such an ad is recorded as an app event (see Firebase
+        Analytics above).</td>
+      <td>Telling players about our other games without third-party advertising</td>
+      <td>Not shown with “Remove ads” or Premium. Switch off recording in <em>Settings → Privacy → Send anonymous
+        usage statistics</em>.</td>
     </tr>
     <tr>
       <td>Google Play Billing</td>
@@ -116,13 +134,15 @@
     <li>Purchases and donations: performance of the contract with you.</li>
     <li>Invitations: our legitimate interest in running the invitation feature and preventing abuse;
       performance of the contract for the credits you earn.</li>
-    <li>Installs from our own ads: our legitimate interest in knowing which of our own promotions work.</li>
+    <li>Installs from our own ads and ads for our other apps: our legitimate interest in telling players about our
+      own games and knowing which of our own promotions work.</li>
+    <li>Crash reports: our legitimate interest in keeping the game stable.</li>
     <li>Emails you send us: our legitimate interest in answering you.</li>
   </ul>
 
   <h2>How long data is kept</h2>
   <p>Data on your device stays until you clear the app's data or uninstall it. Analytics data is
-    kept for a limited period set in Firebase (no longer than 14 months). Leaderboard entries stay
+    kept for a limited period set in Firebase (no longer than 14 months); crash reports are kept by Firebase for up to 90 days. Leaderboard entries stay
     while the leaderboard is shown, or until you ask us to delete them. Invitation records are kept while
     credits can still be used, or until you ask us to delete them. Google keeps ad data under its own policies.</p>
 
@@ -148,7 +168,7 @@
 
   <section id="lt" lang="lt">
   <h1>Privatumo politika</h1>
-  <p class="muted">JazzIn, anksčiau Nonet (Android programėlė, paketas <code>com.solocodelab.nonet</code>) · Galioja nuo 2026 m. lapkričio 16 d.</p>
+  <p class="muted">JazzIn, anksčiau Nonet (Android programėlė, paketas <code>com.solocodelab.nonet</code>) · Galioja nuo 2026 m. lapkričio 21 d.</p>
 
   <p>JazzIn – Sudoku žaidimas. Žaidimas neprašo jūsų vardo, el. pašto, telefono, buvimo vietos,
     kontaktų ar nuotraukų, paskyros kurti nereikia. Čia paaiškinta, kokius nedidelius duomenis
@@ -186,6 +206,12 @@
       <td>Išjunkite <em>Nustatymai → Privatumas → Siųsti anoniminę naudojimo statistiką</em>.</td>
     </tr>
     <tr>
+      <td>Google Firebase Crashlytics</td>
+      <td>Strigimų ataskaitos: techninis klaidos žurnalas, programėlės versija, įrenginio modelis, OS versija, programėlės egzemplioriaus ID</td>
+      <td>Rasti ir ištaisyti strigimus</td>
+      <td>Išjunkite <em>Nustatymai → Privatumas → Siųsti anoniminę naudojimo statistiką</em>; tada strigimų ataskaitos nesiunčiamos.</td>
+    </tr>
+    <tr>
       <td>Google Firebase Remote Config</td>
       <td>Programėlės egzemplioriaus ID, programėlės versija</td>
       <td>Keisti nustatymus (pvz., kaip dažnai gali būti rodomos reklamos) be naujos versijos</td>
@@ -216,6 +242,18 @@
         Žymoje asmens duomenų nėra ir ji nenaudojama jūsų atpažinti.</td>
       <td>Žinoti, kurios mūsų pačių reklamos veikia.</td>
       <td>Išjunkite <em>Nustatymai → Privatumas → Siųsti anoniminę naudojimo statistiką</em>; tada nieko neregistruojama.</td>
+    </tr>
+    <tr>
+      <td>Kitų mūsų programėlių reklama (GitHub Pages, „Google Play“, Firebase Analytics)</td>
+      <td>Jei neturite kitos JazzIn programėlės (pvz., JazzIn Block Puzzle), JazzIn gali parodyti trumpą jos reklamą
+        vietoje AdMob reklamos. Kad pasirinktų, programėlė patikrina, ar jūsų įrenginyje įdiegtos kitos mūsų
+        programėlės; jokia kita informacija apie įdiegtas programėles neskaitoma ir nesiunčiama. Kartą per parą programėlė
+        parsisiunčia nedidelį nustatymų failą iš mūsų svetainės (ji talpinama GitHub Pages, kuri, kaip ir bet kuri
+        svetainė, mato jūsų IP adresą). Reklama veda į programėlės „Google Play“ puslapį. Tokios reklamos parodymas ir
+        paspaudimas registruojamas kaip programėlės įvykis (žr. Firebase Analytics aukščiau).</td>
+      <td>Papasakoti apie kitus mūsų žaidimus be trečiųjų šalių reklamos</td>
+      <td>Nerodoma su „Be reklamų“ ar Premium. Registravimą išjunkite <em>Nustatymai → Privatumas → Siųsti anoniminę
+        naudojimo statistiką</em>.</td>
     </tr>
     <tr>
       <td>Google Play Billing</td>
@@ -251,13 +289,15 @@
     <li>Pirkimai ir aukos – sutarties su jumis vykdymas.</li>
     <li>Pakvietimai – mūsų teisėtas interesas vykdyti pakvietimų funkciją ir užkirsti kelią piktnaudžiavimui;
       sutarties vykdymas dėl jūsų gautų kreditų.</li>
-    <li>Diegimai iš mūsų pačių reklamos – mūsų teisėtas interesas žinoti, kurios mūsų pačių reklamos veikia.</li>
+    <li>Diegimai iš mūsų pačių reklamos ir kitų mūsų programėlių reklama – mūsų teisėtas interesas papasakoti apie savo
+      žaidimus ir žinoti, kurios mūsų pačių reklamos veikia.</li>
+    <li>Strigimų ataskaitos – mūsų teisėtas interesas išlaikyti žaidimo stabilumą.</li>
     <li>Jūsų atsiųsti el. laiškai – mūsų teisėtas interesas jums atsakyti.</li>
   </ul>
 
   <h2>Kiek laiko saugoma</h2>
   <p>Įrenginyje esantys duomenys saugomi, kol išvalote programėlės duomenis ar ją pašalinate.
-    Analitikos duomenys saugomi Firebase nustatytą ribotą laiką (ne ilgiau kaip 14 mėnesių).
+    Analitikos duomenys saugomi Firebase nustatytą ribotą laiką (ne ilgiau kaip 14 mėnesių); strigimų ataskaitas Firebase saugo iki 90 dienų.
     Reitingų įrašai saugomi, kol rodomas reitingas, arba kol paprašote juos ištrinti. Reklamų
     duomenis Google saugo pagal savo taisykles. Pakvietimų įrašai saugomi, kol kreditus dar galima panaudoti, arba
     kol paprašote juos ištrinti.</p>
